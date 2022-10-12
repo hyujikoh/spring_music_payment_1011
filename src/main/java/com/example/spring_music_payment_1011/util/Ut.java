@@ -1,7 +1,6 @@
 package com.example.spring_music_payment_1011.util;
 
-import com.example.spring_music_payment_1011.app.AppConfig;
-import com.example.spring_music_payment_1011.app.base.dto.RsData;
+import com.example.spring_music_payment_1011.AppConfig;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpHeaders;
@@ -128,3 +127,4 @@ public class Ut {
         }
     }
 }
+
