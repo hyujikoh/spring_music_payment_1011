@@ -1,14 +1,16 @@
 package com.example.spring_music_payment_1011.base.initData;
 
-import com.ll.exam.app__2022_10_11.app.cart.service.CartService;
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.member.service.MemberService;
-import com.ll.exam.app__2022_10_11.app.order.entity.Order;
-import com.ll.exam.app__2022_10_11.app.order.service.OrderService;
-import com.ll.exam.app__2022_10_11.app.product.entity.Product;
-import com.ll.exam.app__2022_10_11.app.product.service.ProductService;
-import com.ll.exam.app__2022_10_11.app.song.entity.Song;
-import com.ll.exam.app__2022_10_11.app.song.service.SongService;
+
+
+import com.example.spring_music_payment_1011.cart.service.CartService;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.member.service.MemberService;
+import com.example.spring_music_payment_1011.order.entity.Order;
+import com.example.spring_music_payment_1011.order.service.OrderService;
+import com.example.spring_music_payment_1011.product.entity.Product;
+import com.example.spring_music_payment_1011.product.service.ProductService;
+import com.example.spring_music_payment_1011.song.entity.Song;
+import com.example.spring_music_payment_1011.song.service.SongService;
 
 import java.util.Arrays;
 import java.util.List;

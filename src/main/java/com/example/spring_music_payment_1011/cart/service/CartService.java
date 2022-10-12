@@ -1,9 +1,10 @@
 package com.example.spring_music_payment_1011.cart.service;
 
-import com.ll.exam.app__2022_10_11.app.cart.entity.CartItem;
-import com.ll.exam.app__2022_10_11.app.cart.repository.CartItemRepository;
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.product.entity.Product;
+import com.example.spring_music_payment_1011.cart.entity.CartItem;
+import com.example.spring_music_payment_1011.cart.repository.CartItemRepository;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.product.entity.Product;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

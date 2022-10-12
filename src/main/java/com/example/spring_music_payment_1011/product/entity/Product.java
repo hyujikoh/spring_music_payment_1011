@@ -1,8 +1,8 @@
 package com.example.spring_music_payment_1011.product.entity;
 
-import com.ll.exam.app__2022_10_11.app.base.entity.BaseEntity;
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.song.entity.Song;
+import com.example.spring_music_payment_1011.base.entity.BaseEntity;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.song.entity.Song;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

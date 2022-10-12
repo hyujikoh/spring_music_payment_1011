@@ -1,8 +1,9 @@
 package com.example.spring_music_payment_1011.song.service;
 
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.song.entity.Song;
-import com.ll.exam.app__2022_10_11.app.song.repository.SongRepository;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.song.entity.Song;
+import com.example.spring_music_payment_1011.song.repository.SongRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

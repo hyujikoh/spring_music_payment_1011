@@ -1,13 +1,14 @@
 package com.example.spring_music_payment_1011.song.controller;
 
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.security.dto.MemberContext;
-import com.ll.exam.app__2022_10_11.app.song.entity.Song;
-import com.ll.exam.app__2022_10_11.app.song.exception.ActorCanNotModifyException;
-import com.ll.exam.app__2022_10_11.app.song.exception.ActorCanNotSeeException;
-import com.ll.exam.app__2022_10_11.app.song.form.SongForm;
-import com.ll.exam.app__2022_10_11.app.song.service.SongService;
-import com.ll.exam.app__2022_10_11.util.Ut;
+
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.security.dto.MemberContext;
+import com.example.spring_music_payment_1011.song.entity.Song;
+import com.example.spring_music_payment_1011.song.exception.ActorCanNotModifyException;
+import com.example.spring_music_payment_1011.song.exception.ActorCanNotSeeException;
+import com.example.spring_music_payment_1011.song.form.SongForm;
+import com.example.spring_music_payment_1011.song.service.SongService;
+import com.example.spring_music_payment_1011.util.Ut;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.access.prepost.PreAuthorize;

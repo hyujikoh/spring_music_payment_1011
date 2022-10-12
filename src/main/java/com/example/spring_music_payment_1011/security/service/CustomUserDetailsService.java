@@ -1,8 +1,9 @@
 package com.example.spring_music_payment_1011.security.service;
 
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.member.repository.MemberRepository;
-import com.ll.exam.app__2022_10_11.app.security.dto.MemberContext;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.member.repository.MemberRepository;
+import com.example.spring_music_payment_1011.security.dto.MemberContext;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

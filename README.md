@@ -8,6 +8,11 @@
 4. 결제 시스템 진행시 토스페이먼츠로 진행, 예치금 시스템도 포함되어있습니다.
 
 
-ObjectMapper getObjectMapper 를 static 으로 사용했기 때문에 기존에 사용한 방법이 안먹힌다, 그래서 
+ObjectMapper getObjectMapper 를 static 으로 사용했기 때문에 기존에 사용한 방법이 안먹힌다, 그래서 appconfig 로 해당 객체를 가져온다. 
+즉 static 환경에서 빈을 가져오기위해 해당 방식을 사용했다. 
+
+
+MemberContext 라는 객체를 통해 보다 더 다양한 정보를 로그인시 얻게 해준다. ()
+
 - 어노테이션 공부
   - @EnableJpaAuditing : jpa 에서 데이터 생성시, 생성일자, 수정일자가 자동으로 들어가게 설정

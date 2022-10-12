@@ -1,6 +1,7 @@
 package com.example.spring_music_payment_1011.cart.repository;
 
-import com.ll.exam.app__2022_10_11.app.cart.entity.CartItem;
+import com.example.spring_music_payment_1011.cart.entity.CartItem;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

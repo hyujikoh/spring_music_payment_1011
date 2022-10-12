@@ -1,8 +1,9 @@
 package com.example.spring_music_payment_1011.cash.service;
 
-import com.ll.exam.app__2022_10_11.app.cash.entity.CashLog;
-import com.ll.exam.app__2022_10_11.app.cash.repository.CashLogRepository;
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
+import com.example.spring_music_payment_1011.cash.entity.CashLog;
+import com.example.spring_music_payment_1011.cash.repository.CashLogRepository;
+import com.example.spring_music_payment_1011.member.entity.Member;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

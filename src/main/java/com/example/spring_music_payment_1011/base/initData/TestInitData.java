@@ -1,10 +1,11 @@
 package com.example.spring_music_payment_1011.base.initData;
 
-import com.ll.exam.app__2022_10_11.app.cart.service.CartService;
-import com.ll.exam.app__2022_10_11.app.member.service.MemberService;
-import com.ll.exam.app__2022_10_11.app.order.service.OrderService;
-import com.ll.exam.app__2022_10_11.app.product.service.ProductService;
-import com.ll.exam.app__2022_10_11.app.song.service.SongService;
+import com.example.spring_music_payment_1011.cart.service.CartService;
+import com.example.spring_music_payment_1011.member.service.MemberService;
+import com.example.spring_music_payment_1011.order.service.OrderService;
+import com.example.spring_music_payment_1011.product.service.ProductService;
+import com.example.spring_music_payment_1011.song.service.SongService;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

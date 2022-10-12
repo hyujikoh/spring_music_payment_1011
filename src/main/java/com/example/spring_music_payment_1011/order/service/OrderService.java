@@ -1,13 +1,14 @@
 package com.example.spring_music_payment_1011.order.service;
 
-import com.ll.exam.app__2022_10_11.app.cart.entity.CartItem;
-import com.ll.exam.app__2022_10_11.app.cart.service.CartService;
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.member.service.MemberService;
-import com.ll.exam.app__2022_10_11.app.order.entity.Order;
-import com.ll.exam.app__2022_10_11.app.order.entity.OrderItem;
-import com.ll.exam.app__2022_10_11.app.order.repository.OrderRepository;
-import com.ll.exam.app__2022_10_11.app.product.entity.Product;
+import com.example.spring_music_payment_1011.cart.entity.CartItem;
+import com.example.spring_music_payment_1011.cart.service.CartService;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.member.service.MemberService;
+import com.example.spring_music_payment_1011.order.entity.Order;
+import com.example.spring_music_payment_1011.order.entity.OrderItem;
+import com.example.spring_music_payment_1011.order.repository.OrderRepository;
+import com.example.spring_music_payment_1011.product.entity.Product;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

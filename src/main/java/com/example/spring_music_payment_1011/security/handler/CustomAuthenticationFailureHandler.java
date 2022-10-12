@@ -1,6 +1,7 @@
 package com.example.spring_music_payment_1011.security.handler;
 
-import com.ll.exam.app__2022_10_11.util.Ut;
+import com.example.spring_music_payment_1011.util.Ut;
+
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.DefaultRedirectStrategy;
 import org.springframework.security.web.RedirectStrategy;

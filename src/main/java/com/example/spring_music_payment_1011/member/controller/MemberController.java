@@ -1,8 +1,9 @@
 package com.example.spring_music_payment_1011.member.controller;
 
-import com.ll.exam.app__2022_10_11.app.member.form.JoinForm;
-import com.ll.exam.app__2022_10_11.app.member.service.MemberService;
-import com.ll.exam.app__2022_10_11.util.Ut;
+import com.example.spring_music_payment_1011.member.form.JoinForm;
+import com.example.spring_music_payment_1011.member.service.MemberService;
+
+import com.example.spring_music_payment_1011.util.Ut;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

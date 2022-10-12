@@ -1,6 +1,7 @@
 package com.example.spring_music_payment_1011.util;
 
 import com.example.spring_music_payment_1011.AppConfig;
+import com.example.spring_music_payment_1011.base.dto.RsData;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpHeaders;
@@ -19,6 +20,8 @@ public class Ut {
 
     public static class json {
 
+
+        // map 을 json 으로 바꿔주고
         public static Object toStr(Map<String, Object> map) {
             try {
                 return getObjectMapper().writeValueAsString(map);
@@ -28,6 +31,7 @@ public class Ut {
             }
         }
 
+        // json을 map 으로 고쳐준다. 으로 바꿔주고
         public static Map<String, Object> toMap(String jsonStr) {
             try {
                 return getObjectMapper().readValue(jsonStr, LinkedHashMap.class);

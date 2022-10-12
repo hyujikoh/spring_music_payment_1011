@@ -1,10 +1,11 @@
 package com.example.spring_music_payment_1011.member.service;
 
-import com.ll.exam.app__2022_10_11.app.cash.entity.CashLog;
-import com.ll.exam.app__2022_10_11.app.cash.service.CashService;
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
-import com.ll.exam.app__2022_10_11.app.member.exception.AlreadyJoinException;
-import com.ll.exam.app__2022_10_11.app.member.repository.MemberRepository;
+import com.example.spring_music_payment_1011.cash.entity.CashLog;
+import com.example.spring_music_payment_1011.cash.service.CashService;
+import com.example.spring_music_payment_1011.member.entity.Member;
+import com.example.spring_music_payment_1011.member.exception.AlreadyJoinException;
+import com.example.spring_music_payment_1011.member.repository.MemberRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,7 @@
 package com.example.spring_music_payment_1011.security.dto;
 
-import com.ll.exam.app__2022_10_11.app.member.entity.Member;
+import com.example.spring_music_payment_1011.member.entity.Member;
+
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;

@@ -1,8 +1,8 @@
 package com.example.spring_music_payment_1011.member.entity;
 
 
+import com.example.spring_music_payment_1011.base.entity.BaseEntity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.ll.exam.app__2022_10_11.app.base.entity.BaseEntity;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
